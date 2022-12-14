@@ -1,3 +1,7 @@
+# Model Training
+
+This repo contains `CS1430_Final_Project_Model.ipynb`, a jupyter notebook from [here](https://www.immersivelimit.com/tutorials/using-mask-r-cnn-on-custom-coco-like-dataset) for training our model. We modified this notebook to accomdate our needs, and trained our model using this script on Google Colab. 
+
 # Data Generation
 
 This repo contains `data_generation.py`, a python script used for generating synthetic data of random letters 
