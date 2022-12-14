@@ -259,9 +259,9 @@ class CocoDataset():
                 self.segmentations[image_id] = []
             self.segmentations[image_id].append(segmentation)
 
-
-annotation_path = '/Users/aaronwalker/Documents/cv-finalproject/new_data 2/train.json'
-image_dir = "/Users/aaronwalker/Documents/cv-finalproject/new_data 2/train"
+# CHANGE ANNOTATION PATH AND IMAGE DIR IN ORDER TO USE
+annotation_path = 'data_generated/text_box_data.json'
+image_dir = "data_generated/"
 coco_dataset = CocoDataset(annotation_path, image_dir)
 # coco_dataset.display_info()
 # coco_dataset.display_licenses()
