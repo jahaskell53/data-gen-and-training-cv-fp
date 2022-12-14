@@ -2,6 +2,10 @@
 
 This repo contains `CS1430_Final_Project_Model.ipynb`, a jupyter notebook from [here](https://www.immersivelimit.com/tutorials/using-mask-r-cnn-on-custom-coco-like-dataset) for training our model. We modified this notebook to accomdate our needs, and trained our model using this script on Google Colab. 
 
+## Link to Weights
+
+[Here](https://drive.google.com/file/d/1hQRv1TzoWhG6BkHsGcikilGNnCin4doY/view?usp=sharing) is a Google Drive link to the weights we generated using the Jupyter Notebook and we used for our final model. 
+
 # Data Generation
 
 This repo contains `data_generation.py`, a python script used for generating synthetic data of random letters 
