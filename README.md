@@ -1,6 +1,8 @@
 # Model Training
 
-This repo contains `CS1430_Final_Project_Model.ipynb`, a jupyter notebook from [here](https://www.immersivelimit.com/tutorials/using-mask-r-cnn-on-custom-coco-like-dataset) for training our model. We modified this notebook to accomdate our needs, and trained our model using this script on Google Colab. 
+This repo contains `CS1430_Final_Project_Model.ipynb`, a jupyter notebook that we modified from [here](https://www.immersivelimit.com/tutorials/using-mask-r-cnn-on-custom-coco-like-dataset) for training our model. We added comments to this notebook, created our own algorithms for determining which characters make up a word, called google translate's API and created our own algorithms for overlaying translated in the same location as the original text. We also trained our model using this script on Google Colab. 
+
+At the start of the notebook we clone our fork (which can be found [here](https://github.com/Ayma-n/Mask_RCNN)) of the Mask_RCNN library which we use in the notebook, as there were initially many compatibility issues that prevented use of the original library, so we had to make many adjustments to the source code. 
 
 ## Link to Weights
 
